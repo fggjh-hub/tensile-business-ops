@@ -25,7 +25,7 @@ Get quotes from both, pick one, pay. This is the hard blocker — no client enga
 Once PI insurance is confirmed, the site is ready. One line of code to change.
 - [ ] Open `tensile-infrastructure/src/app/page.js`
 - [ ] Change `const COMING_SOON = true` to `const COMING_SOON = false`
-- [ ] Rebuild and redeploy
+- [ ] Commit and push to `main` — GitHub Actions will build and deploy automatically
 
 ---
 
@@ -52,8 +52,6 @@ These don't need to be in place for an audit, but must be ready before a retaine
 
 - [ ] **Dropbox Sign** — eSignature for retainer agreements. Free tier is sufficient. [dropbox.com/sign](https://www.dropbox.com/sign)
 - [ ] **1Password** — credential management for client repo/server access. ~£4/month. [1password.com](https://1password.com)
-- [ ] **BetterStack** — uptime monitoring. Set up account and configure monitoring for client systems during onboarding. [betterstack.com](https://betterstack.com)
-- [ ] **Snyk** — vulnerability monitoring. Connect to client repos during onboarding. [snyk.io](https://snyk.io)
 - [ ] **Renovate** — automated dependency update PRs. Install as GitHub/GitLab app on client repos during onboarding. [docs.renovatebot.com](https://docs.renovatebot.com)
 
 ---
@@ -75,6 +73,10 @@ These don't need to be in place for an audit, but must be ready before a retaine
 - [x] Linear — live, connected to support@
 - [x] Cal.com — live, Mon–Fri 09:00–17:00
 - [x] Website built — tensileinfrastructure.co.uk (coming soon mode, ready to flip)
+- [x] GitHub repos — `fggjh-hub/tensile-infrastructure` (website) and `fggjh-hub/tensile-business-ops` (docs/templates)
+- [x] CI/CD — GitHub Actions auto-builds and deploys website to Cloudflare Pages on push to `main`
+- [x] BetterStack — live, status page at status.tensileinfrastructure.co.uk
+- [x] Snyk — live, monitoring tensile-infrastructure repo, automatic fix PRs enabled (first CVE already patched: next@16.2.2 → 16.2.3)
 - [x] All operational documents created (audit runbook, report template, retainer agreement, onboarding checklist, monthly update template)
 - [x] All email templates created
 - [x] PAYE registration initiated via 1st Formations (reference pending)

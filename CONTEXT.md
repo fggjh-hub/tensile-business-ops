@@ -50,7 +50,8 @@ For full business detail, read: `Business-Plan.md`, `Extra-Context.md`, `UK-Mark
 
 **Location:** `tensile-infrastructure/` — Next.js 16 App Router, static export (`output: 'export'`).
 **Key files:** `src/app/page.js`, `src/app/page.module.css`, `src/app/globals.css`, `src/app/layout.js`
-**Deployment:** Cloudflare Pages via Wrangler (`npx wrangler pages deploy ./out`)
+**Deployment:** Cloudflare Pages via GitHub Actions CI/CD. Pushes to `main` on GitHub trigger: `npm ci` → `npm run build` → `wrangler pages deploy ./out`. Workflow file: `.github/workflows/deploy.yml`.
+**Repository:** `github.com/fggjh-hub/tensile-infrastructure` (private)
 
 **Coming soon toggle:** `const COMING_SOON` in `page.js` — set to `true` to show coming soon, `false` for the full site. Currently showing coming soon.
 
@@ -69,7 +70,7 @@ For full business detail, read: `Business-Plan.md`, `Extra-Context.md`, `UK-Mark
 **What must happen before go-live:**
 - PI insurance confirmed (hard blocker)
 - Privacy notice (`/privacy` route) built and linked in footer
-- Change `COMING_SOON = false`, rebuild, redeploy
+- Change `COMING_SOON = false`, commit and push to `main` (GitHub Actions handles build and deploy automatically)
 
 ---
 
@@ -134,9 +135,10 @@ These were established through iteration and should be treated as fixed decision
 | Xero | Accounting and invoicing | Not yet activated (use Monzo 6-month offer) |
 | Dropbox Sign | Contract eSignature | Not set up |
 | 1Password | Credential management | Not set up |
-| BetterStack | Uptime monitoring | Not set up |
-| Snyk | Vulnerability scanning | Not set up |
+| BetterStack | Uptime monitoring | Live — status page at status.tensileinfrastructure.co.uk |
+| Snyk | Vulnerability scanning | Live — connected to GitHub repo, monitoring tensile-infrastructure |
 | Renovate | Dependency update PRs | Not set up |
+| GitHub | Source control & CI/CD | Live — tensile-infrastructure (website) and tensile-business-ops (docs/templates) repos |
 
 **Devices:**
 - Mac: dedicated Chrome profile for Tensile (signed in as jack@)
@@ -212,8 +214,10 @@ RetainerBusiness/
 ├── Retainer-Agreement-Template.docx
 ├── Email-Templates/                        ← 01–06 email templates
 ├── Action-Plan-Stage-Docs/                 ← detailed docs per action plan phase
+├── .gitignore                              ← excludes tensile-infrastructure/, node_modules/, tmp/, .DS_Store
 ├── legacy-client-mock/                     ← Harbour Digital mock audit (demo purposes)
-└── tensile-infrastructure/                 ← website (Next.js 16 App Router)
+└── tensile-infrastructure/                 ← website (Next.js 16 App Router) — own Git repo
+    ├── .github/workflows/deploy.yml        ← CI/CD: build + deploy to Cloudflare Pages on push to main
     ├── public/logo.svg                     ← TI light transparent SVG (for website use)
     └── src/app/
         ├── page.js                         ← all page content, COMING_SOON toggle

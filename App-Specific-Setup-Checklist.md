@@ -28,7 +28,7 @@ Every piece of software in your stack needs to be configured securely, branded c
 - [ ] **DMARC:** Add a TXT record for `_dmarc.tensileinfrastructure.co.uk` with value: `v=DMARC1; p=quarantine; rua=mailto:jack@tensileinfrastructure.co.uk`. Check at [mxtoolbox.com/dmarc](https://mxtoolbox.com/dmarc.aspx).
 - [ ] **MX records:** Confirm Google Workspace MX records are correctly set (email is live so these should be fine — just verify once as part of this pass).
 - [ ] **Custom domain binding:** Confirm `tensileinfrastructure.co.uk` is bound to the Cloudflare Pages project (not only the `*.pages.dev` subdomain).
-- [ ] **Wrangler pre-flight:** Before the final website flip, run `npx wrangler pages deploy ./out` from the project directory and confirm the preview URL loads correctly end-to-end.
+- [ ] **CI/CD pre-flight:** Before the final website flip, push a test commit to `main` and confirm GitHub Actions builds and deploys successfully (check the Actions tab on GitHub).
 
 ---
 
@@ -162,10 +162,11 @@ Every piece of software in your stack needs to be configured securely, branded c
 
 ---
 
-## 11. BetterStack
-*Uptime monitoring and incident alerting for client systems. Set up account now; connect client monitors during onboarding.*
+## 11. BetterStack ✓
+*Uptime monitoring and incident alerting for client systems.*
 
-- [ ] **Create account** at [betterstack.com](https://betterstack.com). Free tier covers the basics for initial clients.
+- [x] **Account created** at [betterstack.com](https://betterstack.com).
+- [x] **Status page live** at [status.tensileinfrastructure.co.uk](https://status.tensileinfrastructure.co.uk).
 - [ ] **Alert contact:** Set your primary alert email to `support@tensileinfrastructure.co.uk` (which feeds into Linear's Triage queue).
 - [ ] **Monitor template:** Prepare a standard HTTP monitor config to replicate per client during onboarding — URL, 1-minute check interval, alert on 2 consecutive failures.
 - [ ] **Slack integration:** Connect BetterStack alerts to `#active-incidents` in Slack.
@@ -173,13 +174,14 @@ Every piece of software in your stack needs to be configured securely, branded c
 
 ---
 
-## 12. Snyk
-*Dependency vulnerability scanning. Connect to client repos during onboarding.*
+## 12. Snyk ✓
+*Dependency vulnerability scanning. Connected and monitoring the Tensile website.*
 
-- [ ] **Create account** at [snyk.io](https://snyk.io). Free tier is sufficient for initial clients.
-- [ ] **GitHub/GitLab authorisation:** Authenticate Snyk against your own GitHub account now. You will grant per-client repo access during each onboarding.
-- [ ] **Workflow test:** Run a scan on a sample repo to confirm output matches the format used in `Harbour-Digital-Audit-Report.docx`.
-- [ ] **Note:** Do not connect client repos until an audit or retainer is agreed and access is authorised.
+- [x] **Account created** at [snyk.io](https://snyk.io).
+- [x] **GitHub authorisation:** Snyk connected to `fggjh-hub` GitHub account.
+- [x] **Tensile website imported:** `fggjh-hub/tensile-infrastructure` monitored. First CVE (CVE-2026-23869 in next@16.2.2) detected and patched automatically via Snyk fix PR → merged → auto-deployed.
+- [x] **Automatic fix PRs enabled.**
+- [ ] **Connect client repos** during onboarding once an audit or retainer is agreed and access is authorised.
 
 ---
 
@@ -228,8 +230,7 @@ Every piece of software in your stack needs to be configured securely, branded c
 - [ ] **PI Insurance confirmed** — PDF certificate is saved to Google Drive. *(If not, stop here.)*
 - [ ] **Privacy notice** — `/privacy` page is built and linked in the footer.
 - [ ] **Code change:** Open `tensile-infrastructure/src/app/page.js`, change `const COMING_SOON = true` to `const COMING_SOON = false`.
-- [ ] **Rebuild:** Run `npm run build` locally to generate the `/out` static export.
-- [ ] **Deploy:** Run `npx wrangler pages deploy ./out` to push to Cloudflare Pages.
+- [ ] **Deploy:** Commit and push to `main` — GitHub Actions CI/CD handles build and deployment to Cloudflare Pages automatically.
 - [ ] **Live QA:**
   - Visit `tensileinfrastructure.co.uk` — confirm the full site loads, not the coming soon page.
   - Click every "Get in touch" / "Book a call" button and verify Cal.com opens correctly.

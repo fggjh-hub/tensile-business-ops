@@ -89,6 +89,10 @@ Audit → upsell to Retainer. Cold outreach → discovery call → audit → mon
 - Linear set up and connected to support@ for auto ticket creation
 - Cal.com live, Mon–Fri 10:00–12:00 booking slots
 - Website built (Next.js 16, static export, Cloudflare Pages) — in coming soon mode
+- GitHub repos set up: `fggjh-hub/tensile-infrastructure` (website) and `fggjh-hub/tensile-business-ops` (docs/templates), both private
+- CI/CD pipeline live: GitHub Actions auto-builds and deploys to Cloudflare Pages on push to `main`
+- BetterStack live with public status page at status.tensileinfrastructure.co.uk
+- Snyk live and monitoring the tensile-infrastructure repo — GitHub integration enabled, automatic fix PRs active
 - All operational documents created (see Document Inventory below)
 - All email templates created
 - Logo created (wordmark, 8 variants — PNG/SVG, light/dark, solid/transparent)
@@ -96,13 +100,11 @@ Audit → upsell to Retainer. Cold outreach → discovery call → audit → mon
 **To do this week (hard blockers before going live):**
 - PI insurance: get quotes from With Jack (withjack.co.uk) and Qdos (goqdos.com), select £1m PI policy, pay annually (expected £300–£600)
 - Xero: activate via Monzo Business app 6-month offer, connect bank feed, set up invoice templates
-- Flip website live: change COMING_SOON flag in page.js, rebuild, redeploy via Wrangler
+- Flip website live: change COMING_SOON flag in page.js, commit and push to `main` (CI/CD handles the rest)
 
 **To do before first retainer client signs:**
 - Dropbox Sign (eSignature for retainer agreements)
 - 1Password (credential management)
-- BetterStack (uptime monitoring — connect per client during onboarding)
-- Snyk (vulnerability scanning — connect per client repo during onboarding)
 - Renovate (dependency PRs — install per client repo during onboarding)
 
 **To do within 2 months:**
@@ -147,7 +149,9 @@ All documents exist as finished, ready-to-use templates.
 
 - **Framework:** Next.js 16 App Router, static export
 - **Styling:** CSS Modules (component-scoped)
-- **Hosting:** Cloudflare Pages (deployed via `npx wrangler pages deploy ./out`)
+- **Hosting:** Cloudflare Pages (auto-deployed via GitHub Actions CI/CD on push to `main`)
+- **Repository:** `github.com/fggjh-hub/tensile-infrastructure` (private)
+- **CI/CD:** `.github/workflows/deploy.yml` — `npm ci` → `npm run build` → `wrangler pages deploy ./out`
 - **Coming soon toggle:** Single constant `const COMING_SOON` in `page.js` — `true` = coming soon, `false` = live site
 
 ---
