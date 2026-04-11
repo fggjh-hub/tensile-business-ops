@@ -13,13 +13,14 @@ Get quotes from both, pick one, pay. This is the hard blocker — no client enga
 - [ ] Select policy, pay annually (£300–£600 expected at current turnover), file confirmation
 - [ ] Save policy documents to Google Drive
 
-**Xero**
-- [ ] Activate 6-month free trial via Monzo Business app (better than going to Xero directly)
-- [ ] Connect Monzo Business account to Xero
-- [ ] Add company details: Tensile Infrastructure Limited, No. 17139591, Shelton Street address
-- [ ] Set VAT status to: not registered
-- [ ] Create retainer invoice template (£1,500/month, due on 1st of month)
-- [ ] Create audit invoice template (£500, one-off)
+**Xero** — ✓ done (11 April 2026)
+- [x] Activated via Monzo Business app
+- [x] Monzo Business bank feed connected
+- [x] Company details entered
+- [x] VAT set to: not registered
+- [x] Retainer invoice template created (£1,500/month, due 1st)
+- [x] Audit invoice template created (£500, due on receipt)
+- [x] Stripe connected for card payments
 
 **Flip the website live**
 Once PI insurance is confirmed, the site is ready. One line of code to change.
@@ -71,7 +72,7 @@ These don't need to be in place for an audit, but must be ready before a retaine
 - [x] Monzo Business account — open and active
 - [x] Google Workspace — live (jack@, hello@, support@)
 - [x] Linear — live, connected to support@
-- [x] Cal.com — live, Mon–Fri 09:00–17:00
+- [x] Cal.com — live, discovery call window Mon–Fri 10:00–12:00 UK (SLA business hours are separate, Mon–Fri 09:00–17:00)
 - [x] Website built — tensileinfrastructure.co.uk (coming soon mode, ready to flip)
 - [x] GitHub repos — `fggjh-hub/tensile-infrastructure` (website) and `fggjh-hub/tensile-business-ops` (docs/templates)
 - [x] CI/CD — GitHub Actions auto-builds and deploys website to Cloudflare Pages on push to `main`
@@ -80,3 +81,6 @@ These don't need to be in place for an audit, but must be ready before a retaine
 - [x] All operational documents created (audit runbook, report template, retainer agreement, onboarding checklist, monthly update template)
 - [x] All email templates created
 - [x] PAYE registration initiated via 1st Formations (reference pending)
+- [x] Xero activated, Monzo feed connected, invoice templates built, Stripe connected (11 April 2026)
+- [x] ICO registration submitted (10 April 2026 — awaiting confirmation)
+- [x] Cal.com discovery-call window settled: Mon–Fri 10:00–12:00 UK

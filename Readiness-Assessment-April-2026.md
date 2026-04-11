@@ -62,7 +62,7 @@ Go-to-market assets (the entire outreach layer is still to build):
 
 Small but notable inconsistencies I spotted:
 
-Cal.com booking hours are listed as Mon–Fri 09:00–17:00 in `Outstanding-Tasks.md` but Mon–Fri 10:00–12:00 in `AI-SESSION-CONTEXT.md`. Pick one and reconcile. If you are serious about protecting focus time, the 10:00–12:00 window is far better — first calls land in a predictable slot and the rest of the day stays clean for audit work.
+Cal.com booking hours: **resolved 11 April 2026** — settled on Mon–Fri 10:00–12:00 UK for all discovery calls. SLA business hours remain Mon–Fri 09:00–17:00 UK and are a separate concept.
 
 The Retainer Agreement at clause 4.5 says fees are "exclusive of VAT, charged at the prevailing rate". That is correct and harmless while you are under the £90k threshold (VAT is 0% / not charged because you are not registered), but a procurement-sensitive client may query it. Keep a one-sentence explanation in your head: "We are not VAT-registered — turnover is below the threshold — so VAT is not added to these fees at present."
 
