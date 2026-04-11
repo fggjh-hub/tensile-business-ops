@@ -34,8 +34,8 @@ This document outlines the exact, step-by-step sequence of events required to ex
     *   Standardise the deliverables so it takes you less than 3 hours to perform. 
     *   **Tools to run:** `npm audit` or `yarn audit` for dependencies, **Snyk CLI** for security scanning, **Google Lighthouse** for frontend metrics.
     *   Create a clean, branded PDF template using Canva or Notion containing four sections: Security Vulnerabilities, Outdated Dependencies, Performance Bottlenecks, and Actionable Steps.
-8. **Define the Triage Process:** 
-    *   Document your process: When a client emails a bug, you reply asynchronously within 24 hours acknowledging receipt, review the complexity, and quote them the fixed Triage Fee (£500). Work only begins *after* they confirm via email.
+8. **Harden the "No Ad-hoc" Policy:** 
+    *   The business has two products: the £500 Audit and the £1,500/month Retainer. That is the entire menu. When a prospect emails with a single urgent bug, reply within 24 hours acknowledging receipt and redirect them either to the Audit (if the bug suggests broader drift) or politely decline. Ad-hoc bug-fixing is never offered, regardless of price. This protects margins, protects IR35 positioning, and protects your sanity.
 
 ## Phase 3: Go-To-Market & Initial Pipeline (Months 2-3)
 *Goal: Launch the offering to the primary target markets and secure the first paying clients.*
@@ -61,7 +61,7 @@ This document outlines the exact, step-by-step sequence of events required to ex
     *   You will inevitably get asked: *"Can you just build this quick feature?"* **You must say no.** Reply: *"Our SLA covers maintenance, stability, and bug fixing. We don't take on new feature development, as it jeopardises our emergency response times."*
 16. **Automate Retainer Delivery:** 
     *   For clients on the Safety Retainer, install **Dependabot** or **Renovate** into their GitHub/GitLab repositories. Have updates auto-create PRs. You review and merge them weekly. Turn a manual chore into high-margin automated value.
-17. **Hit Month 6 Targets:** Achieve £3,000 MRR from 2 retainers. Treat any ad-hoc Triage Fixes as non-recurring top-up revenue rather than part of MRR.
+17. **Hit Month 6 Targets:** Achieve £3,000 MRR from 2 retainers. Treat any additional Audit revenue as non-recurring top-up income rather than part of MRR.
 
 ## Phase 5: Profitability & Full Transition (Months 7-12)
 *Goal: Reach the financial targets required to rely entirely on the business without high stress.*

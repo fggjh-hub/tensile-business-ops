@@ -17,4 +17,4 @@ Retainer clients need to know their bugs are being tracked. Do not manage mainte
 ## 3. Client Communication
 *   Create a free **Slack Workspace** for your business.
 *   When a client signs a retainer, do not join *their* Slack. Instead, use **Slack Connect** to bridge a private channel between their workspace and yours. 
-*   *Why?* Joining their Slack makes you feel like an employee (IR35 risk) and you will be distracted by their internal company chatter. By forcing them to use a specific bridged channel (e.g., `#ext-maintenance-triage`), you maintain a B2B relationship.
+*   *Why?* Joining their Slack makes you feel like an employee (IR35 risk) and you will be distracted by their internal company chatter. By forcing them to use a specific bridged channel (e.g., `#ext-tensile-maintenance`), you maintain a clear B2B relationship.

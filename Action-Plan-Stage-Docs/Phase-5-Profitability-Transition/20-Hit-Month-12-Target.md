@@ -16,5 +16,5 @@ By Month 12, you will accumulate significant cash in the business bank account. 
 
 ## The Next Step
 You are now sustainable. At this point, you face the classic business choice:
-**A)** Stay solo, keep overheads at near zero, work 20 hours a week, and enjoy the profit margins.
-**B)** Scale up by hiring a junior developer to handle the Triage Fixes while you exclusively handle Sales and Architecture.
+**A)** Stay solo, keep overheads at near zero, work 15–20 hours a week, and enjoy the profit margins.
+**B)** Scale up deliberately by bringing on a second operator to cover more retainers. This means more Audits sold, more covered core systems under management, and a clear split between Sales/Architecture (you) and hands-on maintenance (them). Critically, this does *not* mean adding a third product — the two-product menu stays the same. The only thing that changes is throughput.

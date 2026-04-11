@@ -43,10 +43,9 @@ Every piece of software in your stack needs to be configured securely, branded c
   - Registered Address: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ
 - [ ] **VAT status:** Explicitly set to "Not Registered" (until turnover hits £90,000).
 - [ ] **Branding:** Upload the light variant of your logo (navy on white/transparent PNG). Generate a test invoice PDF and verify it renders cleanly.
-- [ ] **Invoice line items — create all three:**
+- [ ] **Invoice line items — create both:**
   - **System Health Audit** — £500.00, no VAT, payment due on receipt (or 7 days).
-  - **Safety Retainer** — £1,500.00/month, no VAT, recurring, due on the 1st of the month.
-  - **Triage Fix** — £500.00/issue, no VAT.
+  - **Safety Retainer** — £1,500.00/month per covered core system, no VAT, recurring, due on the 1st of the month.
 - [ ] **Payment details:** Add your Monzo Business sort code and account number to the invoice footer template.
 - [ ] **Test run:** Generate a draft invoice to yourself. Download the PDF. Verify logo, payment details, and all line items look professional before anything goes to a real client.
 
@@ -118,10 +117,10 @@ Every piece of software in your stack needs to be configured securely, branded c
 *Your support desk and ticketing pipeline.*
 
 - [ ] **Email integration:** Confirm `support@tensileinfrastructure.co.uk` is mapped so inbound emails automatically create Linear issues.
-- [ ] **Workflow states:** Configure board columns: `Triage` → `In Progress` → `Blocked (Client)` → `Done`.
+- [ ] **Workflow states:** Configure board columns: `Inbox` → `In Progress` → `Blocked (Client)` → `Done`.
 - [ ] **Issue template:** Create a default internal template for conducting audits (steps: access review, Snyk scan, dependency check, runtime health check, report draft).
 - [ ] **Notifications:** Restrict email/push notifications to business hours only.
-- [ ] **Test run:** Send an email from your personal Gmail to `support@tensileinfrastructure.co.uk`. Confirm it appears in the Linear Triage queue within a few minutes.
+- [ ] **Test run:** Send an email from your personal Gmail to `support@tensileinfrastructure.co.uk`. Confirm it appears in the Linear Inbox queue within a few minutes.
 
 ---
 
@@ -167,7 +166,7 @@ Every piece of software in your stack needs to be configured securely, branded c
 
 - [x] **Account created** at [betterstack.com](https://betterstack.com).
 - [x] **Status page live** at [status.tensileinfrastructure.co.uk](https://status.tensileinfrastructure.co.uk).
-- [ ] **Alert contact:** Set your primary alert email to `support@tensileinfrastructure.co.uk` (which feeds into Linear's Triage queue).
+- [ ] **Alert contact:** Set your primary alert email to `support@tensileinfrastructure.co.uk` (which feeds into Linear's Inbox queue).
 - [ ] **Monitor template:** Prepare a standard HTTP monitor config to replicate per client during onboarding — URL, 1-minute check interval, alert on 2 consecutive failures.
 - [ ] **Slack integration:** Connect BetterStack alerts to `#active-incidents` in Slack.
 - [ ] **Note:** Do not create client monitors until a retainer is signed and you have their system access.

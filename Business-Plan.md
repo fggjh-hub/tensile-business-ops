@@ -19,9 +19,7 @@ The central principle is selling outcomes and availability, not billable hours.
     * Each retainer covers one named production application or service, plus the datastore and infrastructure directly supporting it.
     * Separate apps, admin portals, marketing sites, APIs, worker services, and mobile apps require separate coverage.
     * *Strict Anti-Creep Clause:* Any requests exceeding 8 continuous hours of development are automatically rejected and require separate negotiation, which the business reserves the right to decline.
-* **The Triage Fix: £500 (Fixed Flat-Rate Per Issue)**
-    * A non-core fallback offer for urgent inbound bugs when a retainer is not yet in place.
-    * Scope is strictly capped at resolving the documented error; no new features will be built.
+The business has two products and only two products. Ad-hoc bug-fixing work is not offered. Clients who present with a one-off problem are directed either to the £500 audit (if the issue is symptomatic of broader drift) or declined politely. This keeps the operating model simple, keeps IR35 positioning clean, and avoids the low-margin treadmill of single-ticket fire-fighting.
 
 ## 4. Market & Competitor Analysis (UK 2026)
 * **Target Market 1: Digital Agencies.** Agencies frequently build platforms but struggle to maintain them profitably once launched. 
@@ -44,5 +42,5 @@ The central principle is selling outcomes and availability, not billable hours.
 * **Initial Capital:** Funded by existing personal financial buffer, requiring zero external debt.
 * **Overheads:** Minimal (PI Insurance, accounting software, domain/hosting, communication tools). Estimated at < £100/month.
 * **Revenue Goals (Year 1):** * *Months 1-3:* Secure incorporation, 3 Audits, and 1 Retainer client.
-    * *Month 6 Target:* £3,000 MRR via 2 Retainers, plus up to £1,000/month in Triage Fixes as non-recurring top-up revenue.
+    * *Month 6 Target:* £3,000 MRR via 2 Retainers, supplemented by ad-hoc Audit revenue as non-recurring income.
     * *Month 12 Target:* £6,000+ MRR via 4 Retainers, allowing full transition from the financial buffer to sustainable, low-stress profitability.

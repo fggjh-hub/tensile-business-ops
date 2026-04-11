@@ -7,7 +7,7 @@ When an agency replies to your cold email expressing interest, your goal is *not
 When you jump on a 15-minute intro call, frame the audit correctly. 
 
 ### The Pitch: The Safety Net
-*"Your developers are fantastic at building new products fast. That’s what they should be doing. The System Health Audit isn't designed to critique their code; it's a safety net. For £500, we parachute in, run deep security and dependency scans tools, and produce a 3-page triage report. You can then hand that report right back to your developers to fix, or, if ongoing maintenance makes sense, keep that system covered on retainer. It acts as a perfect quality-assurance checkpoint for your clients."*
+*"Your developers are fantastic at building new products fast. That’s what they should be doing. The System Health Audit isn't designed to critique their code; it's a safety net. For £500, we run deep security, dependency, and performance scans and produce a 4-page written report with a prioritised action list. You can hand that report straight to your developers to fix, or, if ongoing maintenance makes sense, keep the system covered on a retainer. It acts as a quality-assurance checkpoint for your clients."*
 
 ### Objection Handling
 *   *"Can't we just do an audit ourselves?"* 

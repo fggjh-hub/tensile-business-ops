@@ -10,11 +10,10 @@ Use **Next.js** or a static site generator, and host it for free on **Vercel** o
 The page must contain exactly 4 sections:
 1.  **The Hero:** "We rescue legacy codebases for UK Digital Agencies. Stop wasting your best developers on maintenance."
 2.  **The Problem:** Detail the pain point—launched sites degrading over time, dependency alerts piling up, developers getting frustrated fixing old bugs instead of building new features.
-3.  **The Solution (The Services):**
-    *   System Health Audits (£400-£600)
-    *   Emergency Triage Bug Fixes (Fixed Fee)
-    *   SLA-backed Safety Retainers
-4.  **The CTA:** "Book a 15-minute Triage Call" linking directly to a **Calendly** or **Cal.com** booking page.
+3.  **The Solution (The Two-Product Menu):**
+    *   System Health Audit (£500 fixed fee, 4-page written report)
+    *   SLA-backed Safety Retainer (£1,500/month per covered core system)
+4.  **The CTA:** "Book a 15-minute Discovery Call" linking directly to a **Calendly** or **Cal.com** booking page.
 
 ## Step 2: The Positioning Copy
 *   **Do not** say "I am a Full Stack Developer."

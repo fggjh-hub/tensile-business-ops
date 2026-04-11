@@ -170,8 +170,9 @@ Client onboarding uses `Client-Onboarding-Checklist.docx`. Retainer governed by 
 | Product | Price | Frequency |
 |---|---|---|
 | System Health Audit | £500 | One-off (lead magnet → retainer upsell) |
-| Safety Retainer | £1,500/month per system | Recurring MRR |
-| Triage Fix | £500 per issue | Ad hoc, non-retainer clients only |
+| Safety Retainer | £1,500/month per covered core system | Recurring MRR |
+
+The business has two products and only two. Ad-hoc bug-fixing, hourly work, and "just this one thing" requests are all out of scope. Prospects with one-off problems are directed to the Audit (if broader drift is suspected) or declined. This keeps the operating model simple and the IR35 positioning clean.
 
 **Revenue milestones:**
 

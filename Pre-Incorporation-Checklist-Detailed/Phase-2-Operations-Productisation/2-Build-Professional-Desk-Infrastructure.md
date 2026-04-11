@@ -15,6 +15,6 @@ You do not need a business bank account to buy a £10 domain name.
 
 ## Step 3: Ticketing & Communications
 1. Register for a free **Slack** workspace. Create a channel template for how you will handle `Slack Connect` when agencies join your workspace.
-2. Register for **Linear** (free tier). Set up a Zapier or native integration so that any email arriving at `support@tensileinfrastructure.co.uk` automatically generates a triage ticket in Linear.
+2. Register for **Linear** (free tier). Set up a Zapier or native integration so that any email arriving at `support@tensileinfrastructure.co.uk` automatically generates a support ticket in Linear.
 
 By doing this now, on Incorporation Day, you simply change the billing details in Google Workspace from your personal card to your new Tide/Monzo business card.

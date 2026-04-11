@@ -111,7 +111,7 @@ These were established through iteration and should be treated as fixed decision
 - "We exist for exactly this gap" — recognisable AI sentence construction
 - "Delivered silently while your team ships" — startup speak
 - "Discovery decks" — agency jargon
-- Any CTA phrasing nobody would say out loud (e.g. "Book a triage call")
+- Any CTA phrasing nobody would say out loud (e.g. "Book a discovery call")
 - "Verified Outside IR35" — "Verified" sounds like a badge, not a fact
 
 **Do use:**

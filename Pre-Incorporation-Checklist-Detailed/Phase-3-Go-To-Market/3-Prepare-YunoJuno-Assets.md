@@ -14,10 +14,10 @@ Open a standard text file and draft your exact profile using this verified UK 20
 ## Step 2: Prepare Portfolio Case Studies
 Clients on YunoJuno want proof. Dig through your past experience and format 2-3 case studies focusing on *outcomes*, not just code. 
 *   *Example 1:* "FinTech Upgrade: Rescued a deprecated Rust backend and legacy React application, resolving 42 dependency warnings and memory leaks, with zero disruption to the production environment."
-*   *Example 2:* "Agency Rescue: Triaged and resolved a high-severity checkout state bug that the agency's internal team could not isolate, delivering the fix within a 48-hour SLA."
+*   *Example 2:* "Agency Rescue: Isolated and resolved a high-severity checkout state bug that the agency's internal team could not reproduce, delivering the fix within a 48-hour SLA."
 
 ## Step 3: The Cover Letter Template
 Draft your default proposal text:
-> "Hi there, I noticed this brief involves rescuing an existing application rather than a new build. Most developers avoid maintenance; I specialise exclusively in it. I am available to audit this codebase to isolate the root cause. My standard Triage process is fully asynchronous with a 48-72 hour turnaround."
+> "Hi there, I noticed this brief involves rescuing an existing application rather than a new build. Most developers avoid maintenance; I specialise exclusively in it. I am available to run a System Health Audit on this codebase to isolate the root cause and produce a prioritised action list. My process is fully asynchronous with a 48-72 hour turnaround on the written report."
 
 Save all these assets in a folder. When your Limited Company is incorporated and insurance purchased, you can create the YunoJuno profile and populate it in 5 minutes.
